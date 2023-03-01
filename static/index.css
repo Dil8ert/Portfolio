@@ -1,0 +1,299 @@
+.nav{
+	position: fixed;
+	top: 0px;
+}
+.navbar-nav{
+	margin-left: 30%;
+}
+
+.navbar-brand{
+	margin-left: 5%;
+}
+
+.fa{
+	color: white;
+	margin-left: 22% !important;
+	position: absolute;
+
+}
+
+.fa-headset{
+	color: white;
+	position: relative;
+	margin-left:1% !important;
+}
+
+.fa-linkedin{
+	margin-left: 25% !important;
+}
+
+.fa-envelope{
+	margin-left: 28% !important;
+}
+
+.fa-discord{
+	color: white;
+	position: absolute;
+	margin-left: 31% !important;
+}
+.container-fluid{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.masthead{
+	background-size: cover;
+	min-height: 120vh;
+	width: 100%;
+	opacity: 0.7;
+}
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:900');
+
+
+.random-word {
+  display: inline-block;
+  color: white;
+  letter-spacing: 3px;
+  width: auto;
+/*   transition: all 1.25s; */
+  animation: slidedown 2s infinite;
+  -webkit-animation: slidedown 2s infinite;
+  -moz-animation: slidedown 2s infinite;
+  text-decoration: underline;
+  text-decoration-color: #6495ED;
+}
+
+@keyframes slidedown {
+  0% {
+    /*opacity: 50;*/
+  }
+  
+  5% {
+    /*opacity: 0;
+*/    transform: translateY(0.5em);
+  }
+  
+  7% {
+    transform: translateY(-1em);
+  }
+  
+  /*10% {
+    opacity: 0;
+  }
+*/  
+  20% {
+    transform: translateY(0);
+    /*opacity: 100;
+*/  }
+}
+
+
+.textpos{
+	margin-left: 65%;
+	padding-top: 15%;
+	opacity: 1 !important;
+}
+
+
+.head1{
+	color: white;
+}
+
+.about-whole{
+	background: #030303;
+	min-height: 100vh;
+}
+
+.row{
+	text-align: center;
+	margin-right: 0px;
+	
+}
+
+.col{
+	padding-left: 1%;
+	color: white;
+}
+
+.col p{
+	margin-top: 14%;
+	padding-right: 6%;
+	margin-bottom: 1%;
+}
+
+
+.dark-img{
+
+	width: 60%;
+	height: 70%;
+	border-radius: 30%;
+	margin-top: 15%;
+}
+
+.about{
+	margin-top: 3%;
+	font-size: clamp(2rem, 2.8vw, 5rem);
+	font-family: Raleway;
+	font-weight: bold;
+}
+
+.typewriter {
+	width: 21.5ch;
+	white-space: nowrap;
+	overflow: hidden;
+	border-right: 4px solid #212121;
+	animation: cursor 1s step-start infinite, 
+    text 5s steps(18) alternate infinite;
+}
+
+@keyframes cursor {
+	0%, 100% { 
+    border-color: #212121; 
+  }
+}
+
+@keyframes text {
+	0% { 
+    width: 0; 
+  }
+	100% { 
+    width: 21.5ch; 
+  }
+}
+
+
+.l-inner {
+  text-align: right;
+  /* width: 100%; */
+
+  margin-inline: auto;
+}
+
+
+
+
+.p-text-box {
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: 0.1em;
+  color: #FFF;
+  background-color: #333;
+  padding: 30px 40px;
+  margin-top: 6%;
+  margin-right: 75%;
+  filter: drop-shadow(3px 3px 3px #555);
+}
+.p-text-box::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 20px;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-top: 10px solid #333;
+}
+
+.list-group{
+	text-align: left;
+}
+
+
+.p-text-box-2{
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: 0.1em;
+  color: #FFF;
+  background-color: #333;
+  padding: 5% 6%;
+  
+  
+  filter: drop-shadow(3px 3px 3px #555);
+}
+.p-text-box-2::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 20px;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-top: 10px solid #333;
+}
+
+.resume{
+	text-align: center;
+	color: white;
+	padding-bottom: 2%;
+	
+}
+.resume h2{
+	margin-bottom: 2%;
+}
+
+
+.leftcol{
+	color: white;
+	background-color: black;
+	min-height: 100vh;
+}
+
+.rightcol{
+	background-color: grey;
+	text-align: left;
+
+}
+
+.rightcol form .col{
+	text-align: left;
+}
+
+.rightcol .about{
+	padding-left: 25%;
+	text-align: center;
+	padding-bottom: 9%;
+
+}
+
+.leftcol .icon{
+	position: relative;
+	
+}
+
+.leftcol li{
+	text-align: left;
+	padding-left: 3%;
+	padding-top: 0.6%;
+
+	}
+.leftcol a{
+	text-decoration: none;
+	color: white;
+}
+
+.socials{
+	padding-top: 20%;
+}
+
+.card-row{
+	padding: 3% 3% 3% 3%;
+}
+
+#overlay {
+   
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  
+}

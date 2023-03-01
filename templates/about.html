@@ -1,0 +1,60 @@
+{% extends "index.html" %}
+         {% block head %}
+          <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+
+         {% endblock %}
+        {% block content %}
+        <div class="about-whole">
+          <div class="row row-cols-2">
+            <div class="col">
+              <img src="./static/images/back_profile.jpeg" class="dark-img">
+            </div>
+           
+            <div class="col">
+              <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,400i,700">
+
+              <div class="container about">
+                <div class="typewriter">About me!</div>
+              </div>
+              <p>
+                Computer Engineering undergrad , graduating in 2023 with a wide variety of exposure to technologies varying from web automation , Natural Language Processing, Unity Engine, Machine Learning and Data Science. I like developing and tinkering with softwares in general.
+              </p>
+              <div class="l-inner">
+                <h3 class="p-text-box">Education</h3>
+            </div>
+
+            <div class="list-group">
+              <li class="list-group-item list-group-item-dark"><b>College: </b>K.K.Wagh Institute of Engineering</li>
+              <li class="list-group-item list-group-item-dark"><b>Branch: </b>Computer Engineering</li>
+              <li class="list-group-item list-group-item-dark"><b>Couse Duration:</b> 2019-2023</li>
+              <li class="list-group-item list-group-item-dark"><b>GPA:</b> 8.88</li>
+              
+            </div>
+
+            <div class="l-inner" style="padding-bottom: 3%;">
+                <h3 class="p-text-box-2">Experience</h3>
+                 <div class="list-group">
+                  <li class="list-group-item list-group-item-dark"><b>Company: </b>SWS Financial Solutions Pvt Ltd</li>
+                  <li class="list-group-item list-group-item-dark"><b>Task: </b>Designed a portfolio overview dashboard using Google finance and Google Data studio</li>
+                  <li class="list-group-item list-group-item-dark"><b>Duration:</b> Jan 2022- Feb 2023</li>
+                </div>
+
+            </div>
+
+
+            
+
+            </div>
+          
+            </div>
+
+            <div class="resume">
+              <h2>Download Resume</h2>
+              <a href="{{ url_for('static', filename='Param Shelar Resume.pdf') }}" download="proposed_file_name"><button type="button" class="btn btn-dark">Download</button></a>
+            </div>
+
+          
+        
+
+        </div>
+        {% endblock %}

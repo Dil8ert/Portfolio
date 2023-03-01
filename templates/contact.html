@@ -1,0 +1,76 @@
+{% extends "index.html" %}
+        {% block content %}
+           <div class="row">
+            <div class="col-sm-4 leftcol">
+              <div class="container about">
+                <div class="typewriter">Socials</div>
+              </div>
+              <div class="socials">
+                <ul class="fa-ul">
+                  <li><a href="https://www.linkedin.com/in/param-shelar-421b3b1b2/"><span class="fa-li"><i class="fa fa-linkedin icon"></i></span>LinkedIn</li></a>
+                </ul>
+
+                <ul class="fa-ul">
+                  <li><a href="https://discordapp.com/users/656195358615142432"><span class="fa-li"><i class="fab fa-discord icon"></i></span>Discord</li></a>
+                </ul>
+
+                <ul class="fa-ul">
+                  <li><a href="mailto:shelarparam@gmail.com"><span class="fa-li"><i class="fa fa-envelope icon" ></i></span>Mail</li></a>
+                </ul>
+
+                <ul class="fa-ul">
+                  <li><a href="tel:8530644608"><span class="fa-li"><i class="fa fa-mobile icon"></i></span>Phone</li></a>
+                </ul>
+
+                <ul class="fa-ul">
+                  <li><a href="https://www.instagram.com/parararaumpum/"><span class="fa-li"><i class="fa fa-instagram icon"></i></span>Instagram</li></a>
+                </ul>
+              </div>
+
+              
+            
+            </div>
+            <div class="col rightcol">
+              <div class="container about">
+                <div class="typewriter">Get in touch!</div>
+              </div>
+
+
+              <form method="post" id="myform">
+                <div class="row" style="padding: 2%">
+                  <div class="col">
+                    <label for="firstname">First Name</label>
+                    <input type="text" name="fname" class="form-control" placeholder="First name">
+                  </div>
+                  <div class="col">
+                    <label for="lastname">Last Name</label>
+                    <input type="text" name="lname" class="form-control" placeholder="Last name">
+                  </div>
+                </div>
+
+
+                <div class="row" style="padding: 2%">
+                  <div class="col">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" class="form-control" placeholder="Email">
+                  </div>
+                  <div class="col">
+                    <label for="city">City</label>
+                    <input type="text" name="city" class="form-control" placeholder="City">
+                  </div>
+                </div>
+
+                <div class="form-group" style="padding: 2%">
+                  <label for="exampleFormControlTextarea1">Write your Message</label>
+                  <textarea name="msg" class="form-control" form="myform" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+              
+                <button type="submit" style="margin: 2%" class="btn btn-dark">Submit</button>
+                  {% block some %}
+
+                {% endblock some %} 
+              </form>
+              
+            </div>
+          </div>
+        {% endblock %}

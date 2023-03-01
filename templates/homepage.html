@@ -1,0 +1,24 @@
+{% extends "index.html" %}
+         {% block head %}
+          <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+         {% endblock %}
+        {% block content %}
+          <div class="masthead" style="background-image: url('./static/images/img2.jpeg');">
+             <div class='textpos'>
+                  
+                  <h1><b class="head1" id="overlay">Param Shelar</b></h1>
+                  <h1 > I'm
+                    <span class='random-word' id="overlay"></span>
+                  </h1>
+                </div>
+          </div>
+
+            <script type="text/javascript" src="{{ url_for('static', filename='index.js') }}">
+              
+            </script>
+
+
+  
+            
+         
+        {% endblock %}
